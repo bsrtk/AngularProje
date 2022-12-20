@@ -1,0 +1,62 @@
+<div class="container mt-5">
+    <div class="card">
+        <div class="d-flex justify-content-between p-3">
+            <div class="image">
+                <img src="https://w7.pngwing.com/pngs/94/510/png-transparent-marine-mammal-scalable-graphics-whale-icon-whale-animals-cartoon-animal.png" width="150" alt="logo">
+            </div>
+            <div class="quiz-header">
+                <h4 style="font-family: cursive;">HAYVANLAR ALEMİ QUIZ!</h4>
+                <span style="font-style: cursive;">Hoşgeldiniz! {{name}}</span>
+            </div>
+        </div>
+
+        <ng-container *ngIf =  "!isQuizCompleted">
+            <div class="d-flex justify-content-around py-3">
+                <div class="score">
+                    <h5>{{points}} Puan</h5>
+                </div>
+                <div class="question-remain">
+                    <span style="font-style:italic;">Soru {{currentQuestion+1}} den {{questionList.length}} a</span>
+                </div>
+                <div class="timer">
+                    {{counter}} saniye 🕦
+                </div>
+            </div>
+            <div class="progress mb-3">
+                <div class="progress-bar progress-bar-striped bg-success" role="progressbar" [ngStyle]="{'width':progress+'%'}" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <div class="question">
+                <div class="card">
+                    <h3>{{questionList[currentQuestion]?.questionText}}</h3>
+                </div>
+            </div>
+            <div class="options">
+                <ol *ngFor="let option of questionList[currentQuestion]?.options">
+                    <li (click)="answer(currentQuestion+1,option)">
+                        <div appChangeBg [isCorrect]="option.correct" class="card">
+                            {{option.text}}
+                        </div>
+                    </li>
+                </ol>
+            </div>
+            <div class="d-flex justify-content-between">
+                <button [disabled]="currentQuestion===0" class="btn" (click)="previousQuestion()"><i class="fa text-primary fa-hand-o-left fa-3x" aria-hidden="true"></i></button>
+                <button class="btn" (click)="resetQuiz()"><i class="fa text-primary fa-retweet fa-3x" aria-hidden="true"></i></button>
+                <button class="btn" (click)="nextQuestion()"><i class="fa text-primary fa-hand-o-right fa-3x" aria-hidden="true"></i></button>
+            </div>
+        </ng-container>
+
+        <ng-container *ngIf = "isQuizCompleted">
+            <div class="row d-flex justify-content-between">
+                <img style="width: 50%;" class="img-fluid col-sm-12 mx-auto" src="https://i.pinimg.com/originals/5f/04/75/5f0475089e81138cf8f8c277fd6b408b.gif" alt="">
+                <div class="result text-center col-md-6 col-sm-12">
+                    <h3>Tebrikler!! <br> Quiz'i başarıyla tamamladınız, <br> Sonucunuz aşağıda:</h3>
+                    <p>Toplam Soru Sayısı: {{questionList.length}}</p>
+                    <p>Cevaplanan Doğru Soru Sayısı: {{correctAnswer}}</p>
+                    <p>Toplam Yanlış Sayısı: {{inCorrectAnswer}}</p>
+                    <p>Sonucunuz : {{points}} Puan</p>
+                </div>
+            </div>
+        </ng-container>
+    </div>
+</div>

@@ -1,0 +1,19 @@
+<div class="container bg-light py-5">
+    <h1 class="display-5 fw-bold">Hayvanlar Quiz'ine hoş geldiniz!</h1>
+    <p class="col-md-8 fs-4">Bu quizde toplam 9 soru bulunuyor ve her soru 10 puan değerinde.</p>
+    <h4>Kurallar:</h4>
+    <ol>
+        <li>Her doğru cevap için 10 puan.</li>
+        <li>Her yanlış cevap için -10 puan.</li>
+        <li>Her soruyu cevaplamak için 60 saniye verilecektir.</li>
+        <li>Sayfanın yenilenmesi Quiz'i sıfarlar.</li>
+    </ol>
+    <h1 style="font-family: cursive;text-align:center">Tebrikler!!</h1>
+    <div class="name col-md-4 my-3">
+        <label for="">İsminizi Girin:</label>
+        <input #name type="text" class="form-control">
+        <button class="btn btn-primary btn-lg" routerLink="/question" (click)="startQuiz()">Quiz Başlıyor!</button>
+
+
+    </div>
+</div>

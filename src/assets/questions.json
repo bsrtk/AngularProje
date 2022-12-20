@@ -1,0 +1,165 @@
+{
+    "questions": [{
+            "questionText": "Aşağıdaki şıklardan hangisi memeli bir hayvan değildir?",
+            "options": [{
+                    "text": "Timsah",
+                    "correct": true
+                },
+                {
+                    "text": "İnek"
+                },
+                {
+                    "text": "Yarasa"
+                },
+                {
+                    "text": "Koyun"
+                }
+            ],
+            "explanation": "Timsah memeli bir hayvan değildir."
+        },
+        {
+            "questionText": "Toprağın altına sakladıkları meşe palamutlarını nereye koyduklarını unuttukları için her yıl binlerce ağacın yetişmesine neden olan hayvan hangisidir?",
+            "options": [{
+                    "text": "Panda"
+                },
+                {
+                    "text": "Kedi"
+                },
+                {
+                    "text": "Kelebek"
+                },
+                {
+                    "text": "Sincap",
+                    "correct": true
+                }
+            ],
+            "explanation": "Sincaplar her yıl alıp sakladıkları ve daha sonra nereye koyduklarını unuttukları meşe palamutları sayesinde binlerce meşe palamutu ağacının yetişmesine katkıda bulunurlar."
+        },
+        {
+            "questionText": "805 km uzaktan algılanabilen alçak frekansta ses dalgaları üreten en gürültücü memeli hangisidir?",
+            "options": [{
+                    "text": "Goril"
+                },
+                {
+                    "text": "Mavi balina",
+                    "correct": true
+                },
+                {
+                    "text": "Fil"
+                },
+                {
+                    "text": "Maymun"
+                }
+            ],
+            "explanation": "Mavi balinalar denizin altında yaşamalarına rağmen en gürültücü memelilerdir."
+        },
+        {
+            "questionText": "Hayatları boyunca sadece tek bir eşleri olan hayvan hangisidir?",
+            "options": [{
+                    "text": "Deniz anası"
+                },
+                {
+                    "text": "Deniz atı",
+                    "correct": true
+                },
+                {
+                    "text": "Deniz yıldızı"
+                },
+                {
+                    "text": "Su aygırı"
+                }
+            ],
+            "explanation": "Deniz atları yaşamları boyunca sadece bir eşleri bulunmaktadır."
+        },
+        {
+            "questionText": "Karıncayiyenler günde kaç bin karınca yerler?",
+            "options": [{
+                    "text": "35 bin",
+                    "correct": true
+                },
+                {
+                    "text": "26 bin"
+                },
+                {
+                    "text": "30 bin"
+                },
+                {
+                    "text": "28 bin"
+                }
+            ],
+            "explanation": "Zor bir soru ancak karıncayiyenler günde ortalama 35 bin karınca yerler."
+        },
+        {
+            "questionText": "Aşağıdaki hayvanlardan hangisinin kanı mavi akmaktadır?",
+            "options": [{
+                    "text": "Köpekbalığı"
+                },
+                {
+                    "text": "Karides"
+                },
+                {
+                    "text": "Mavi balina"
+                },
+                {
+                    "text": "Ahtapot",
+                    "correct": true
+                }
+            ],
+            "explanation": "Ahtapotların kanı mavi akar."
+        },
+        {
+            "questionText": "Dünya üzerinde çapraz yürüyen tek canlı?",
+            "options": [{
+                    "text": "Leylek"
+                },
+                {
+                    "text": "Kral yengeç",
+                    "correct": true
+                },
+                {
+                    "text": "Istakoz"
+                },
+                {
+                    "text": "Kertenkele"
+                }
+            ],
+            "explanation": "Her hayvanın bir özelliği vardır.Bu eşsiz hayvanın da en önemli özelliği çapraz yürümesidir."
+        },
+        {
+            "questionText": "Dünyadaki insan sayısının 1 milyon katı kadar bir popülasyona sahip olan hayvan hangisidir?",
+            "options": [{
+                    "text": "Karınca",
+                    "correct": true
+                },
+                {
+                    "text": "Örümcek"
+                },
+                {
+                    "text": "Sinek"
+                },
+                {
+                    "text": "Arı"
+                }
+            ],
+            "explanation": "Karıncalar koloniler halinde yaşayan canlılardır.Kraliçe karınca ve işçi karıncalardan oluşmaktadır."
+        },
+        {
+            "questionText": "Son olarak yaklaşık 250 bin yıldır yaşıyor olmalarına rağmen hiç bir değişim göstermeyen hayvan hangisidir?",
+            "options": [{
+                    "text": "Hamam böceği",
+                    "correct": true
+                },
+                {
+                    "text": "Çekirge"
+                },
+                {
+                    "text": "Peygamber devesi"
+                },
+                {
+                    "text": "Sinek"
+                }
+            ],
+            "explanation": "Hamam böcekleri son 250 yılda hiçbir değişim yaşamamışlardır."
+        }
+    ]
+}
