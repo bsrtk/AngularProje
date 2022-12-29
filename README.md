@@ -3,6 +3,8 @@ Benim projem hayvanlarla ilgili quiz.
 Projemin asıl amacı eğitici bir içerik oluşturmak. Eğlenirken yeni bilgiler öğrenmemezi sağlar.
 Yaptığım projeyi Angular/cli kullanarak tasarladım. Ama içerisinde aynı zamanda Bootstrap ve CSS de kullandım.
 
+Uploading nice.mp4…
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.1.
 
 ## Development server
